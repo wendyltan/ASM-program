@@ -1,3 +1,4 @@
+;包含三个子程序：show_str,dtoc,divdw,功能见书p206
 assume cs:code
 
 data segment
@@ -192,5 +193,4 @@ code segment
             ret
 
 code ends
-
 end start

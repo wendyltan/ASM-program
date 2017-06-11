@@ -1,5 +1,4 @@
 assume cs:code,ds:data
-
 data segment
     db 'welcome to masm!'			;0~15
     db 00000010b           ;绿字     ;16
@@ -44,13 +43,7 @@ code segment
 			add bx,0a0h				;去到下一行起始位置
 			pop cx			
 	loop s		
-
-
 	mov ax,4c00h
 	int 21h               
 code ends
 end start
-
-
-
-	

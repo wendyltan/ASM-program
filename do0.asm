@@ -1,3 +1,4 @@
+;0号中断除法溢出程序
 assume cs:code
 code segment
 start:
@@ -59,8 +60,3 @@ start:
 
 code ends
 end start
-
-		
-	
-
-
